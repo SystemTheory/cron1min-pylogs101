@@ -15,6 +15,10 @@ On Linux OS make crontab execute file `cron1min.py` once every minute to test cr
 
 `cron1min.dbg` - debug log file
 
+# Resources
+
+Configuration file `appconf.py` derives from dikei/Dictconfig example https://gist.github.com/dikei/1500194 which shows how to configure basic logging by incorporating (or importing) a specified python dictionary.
+
 # Project Folder
 
 Save the project files in a project folder owned by the Linux User such as the following:
