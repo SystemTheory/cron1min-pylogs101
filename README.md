@@ -1,5 +1,5 @@
 # cron1min-pylogs101
-One minute cron interval test with basic python logging application
+Cron task every minute with basic python logging
 
 # Project Purpose
 On Linux OS make crontab execute file `cron1min.py` once every minute to test cron and learn basic python logging.
