@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import sys
 import appconf
 import logging
 import datetime
@@ -24,6 +25,7 @@ logger.addFilter(filt)
 
 now = datetime.datetime.today()
 day_int = now.weekday()
+logger.info(sys.version)
 if 0 <= day_int <= 4: # Mon[0], Tue[1], Wed[2], Thu[3], Fri[4]
     logger.info('Cron fired!')
     logger.debug(str(day_int) + ' = day_int')
