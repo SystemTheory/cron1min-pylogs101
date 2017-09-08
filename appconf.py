@@ -3,9 +3,12 @@ import logging
 import datetime
 import calendar
 
+# Name of application file without extension
+APPFILE_NAME = 'cron1min'
+
 # Name of log files
-LOGFILE_NAME = 'cron1min.info'
-DEBUGFILE_NAME = 'cron1min.dbug'
+LOGFILE_NAME = APPFILE_NAME + '.info'
+DEBUGFILE_NAME = APPFILE_NAME + '.dbug'
 
 # Logging handler level
 CONSOLE_LEVEL = 'INFO'
