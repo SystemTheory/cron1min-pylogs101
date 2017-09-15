@@ -2,7 +2,6 @@ import sys
 import appconf
 import logging
 import datetime
-import calendar
 import logging.config
 
 CONFIG_LOG = appconf.LOG_CONFIG
